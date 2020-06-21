@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { FrontComponent } from './front/front.component';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { GeographyComponent } from './geography/geography.component';
+import { IntelligenceComponent } from './intelligence/intelligence.component';
+import { MeanStackComponent } from './mean-stack/mean-stack.component';
+import { ScienceComponent } from './science/science.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FrontComponent,
     LoginComponent,
-    MainPageComponent
+    MainPageComponent,
+    GeographyComponent,
+    IntelligenceComponent,
+    MeanStackComponent,
+    ScienceComponent
   ],
   imports: [
     BrowserModule,
