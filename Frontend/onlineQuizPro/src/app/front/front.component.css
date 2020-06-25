@@ -1,21 +1,115 @@
-h1{
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    align-items: center;
-    padding-top: 20%;
-    
-    
-}
 button{
     border-radius: 30px 30px 30px 30px;
     width: 90px;
     height: 50px;
     border:black;
     margin-left: 90%;
-    margin-top: 18%;
+    margin-top: 40%;
 }
-body{
-    background: repeating-linear-gradient(to bottom right, pink,#6F2280 )
-      
+
+ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	padding: 0;
+}
+
+li{
+	display: inline-block;
+	width: .5em;
+	height: .3em;
+	background: blue;
+	margin-top: 8em;
+	border-radius: 5px;
+	-webkit-animation: raise 2.5s infinite;
+}
+
+@-webkit-keyframes raise {
+	0%{background-color: #D24D57;}
+	10%{background-color: #F62459;}
+	20%{background-color: #663399;}
+	30%{background-color: #446CB3;}
+	40%{background-color: #26A65B;}
+	50%{background-color: #E87E04;
+		height: 8em;
+		margin-top: 0em;
+	}
+	60%{
+		background-color: #E67E22;
+	}
+}
+
+li:nth-of-type(1){
+	-webkit-animation-delay: .2s;
+}
+
+li:nth-of-type(18){
+	-webkit-animation-delay: .2s;
+}
+
+li:nth-of-type(2){
+	-webkit-animation-delay: .4s;
+}
+
+li:nth-of-type(17){
+	-webkit-animation-delay: .4s;
+}
+
+li:nth-of-type(3){
+	-webkit-animation-delay: .6s;
+}
+
+li:nth-of-type(16){
+	-webkit-animation-delay: .6s;
+}
+
+li:nth-of-type(4){
+	-webkit-animation-delay: .8s;
+}
+
+li:nth-of-type(15){
+	-webkit-animation-delay: .8s;
+}
+
+li:nth-of-type(5){
+	-webkit-animation-delay: 1s;
+}
+
+li:nth-of-type(14){
+	-webkit-animation-delay: 1s;
+}
+
+li:nth-of-type(6){
+	-webkit-animation-delay: 1.2s;
+}
+
+li:nth-of-type(13){
+	-webkit-animation-delay: 1.2s;
+}
+
+li:nth-of-type(7){
+	-webkit-animation-delay: 1.4s;
+}
+
+li:nth-of-type(12){
+	-webkit-animation-delay: 1.4s;
+}
+
+li:nth-of-type(8){
+	-webkit-animation-delay: 1.6s;
+}
+
+li:nth-of-type(11){
+	-webkit-animation-delay: 1.6s;
+}
+
+li:nth-of-type(9){
+	-webkit-animation-delay: 1.7s;
+}
+
+li:nth-of-type(10){
+	-webkit-animation-delay: 1.7s;
 }
