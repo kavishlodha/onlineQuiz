@@ -4,6 +4,7 @@ button{
     height: 50px;
     border:black;
     margin-left: 90%;
+
     margin-top: 45%;
 }
 .dimensions{
@@ -11,6 +12,8 @@ button{
 }
 .list{
 	background:url(../../assets/images/photo-of-deep-sky-object-816608.jpg);
+    
+
 }
 
 ul{
@@ -21,8 +24,10 @@ ul{
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	padding: 0;
+
 	
 	
+
 }
 
 li{
