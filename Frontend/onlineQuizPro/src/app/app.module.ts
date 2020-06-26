@@ -10,6 +10,7 @@ import { GeographyComponent } from './geography/geography.component';
 import { IntelligenceComponent } from './intelligence/intelligence.component';
 import { MeanStackComponent } from './mean-stack/mean-stack.component';
 import { ScienceComponent } from './science/science.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ScienceComponent } from './science/science.component';
     GeographyComponent,
     IntelligenceComponent,
     MeanStackComponent,
-    ScienceComponent
+    ScienceComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,

@@ -3,9 +3,9 @@
 /* BASIC */
 
 html {
-  background: repeating-linear-gradient(to bottom right, blue, cyan, white)
-  
+  background-color: #56baed;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
@@ -228,7 +228,6 @@ input[type=text]:placeholder {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
-   
 }
 
 /* Simple CSS3 Fade-in Animation */
@@ -258,6 +257,10 @@ input[type=text]:placeholder {
 *:focus {
     outline: none;
 } 
+
+#icon {
+  width:25%;
+}
 
 * {
   box-sizing: border-box;

@@ -7,6 +7,7 @@ import { GeographyComponent } from './geography/geography.component';
 import { IntelligenceComponent } from './intelligence/intelligence.component';
 import { MeanStackComponent } from './mean-stack/mean-stack.component';
 import { ScienceComponent } from './science/science.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path:'geography', component:GeographyComponent},
   {path:'intelligence', component:IntelligenceComponent}, 
   {path:'mean-stack', component:MeanStackComponent},
-  {path:'science', component:ScienceComponent}
+  {path:'science', component:ScienceComponent},
+  {path:'signup', component:SignupComponent}
 
 ];
 
